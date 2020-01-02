@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(qtfm LANGUAGES CXX)
+project(cpfm LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-add_executable(qtfm
+add_executable(cpfm
   main.cpp
   mainwindow.cpp
   mainwindow.h
@@ -24,4 +24,4 @@ add_executable(qtfm
   sidebar/widgets/mimetype.cpp
 )
 
-target_link_libraries(qtfm PRIVATE Qt5::Widgets)
+target_link_libraries(cpfm PRIVATE Qt5::Widgets)
