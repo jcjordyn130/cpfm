@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/qtfm.dir/qtfm_autogen/mocs_compilation.cpp.o CMakeFiles/qtfm.dir/main.cpp.o CMakeFiles/qtfm.dir/mainwindow.cpp.o CMakeFiles/qtfm.dir/fileviewwidget.cpp.o CMakeFiles/qtfm.dir/sidebar/widgets/mimetype.cpp.o  -o qtfm  /usr/lib64/libQt5Widgets.so.5.12.5 /usr/lib64/libQt5Gui.so.5.12.5 /usr/lib64/libQt5Core.so.5.12.5 

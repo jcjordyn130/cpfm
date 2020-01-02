@@ -1,4 +1,0 @@
-/home/jordyn/Code/qtfm/CMakeFiles/rebuild_cache.dir
-/home/jordyn/Code/qtfm/CMakeFiles/qtfm.dir
-/home/jordyn/Code/qtfm/CMakeFiles/edit_cache.dir
-/home/jordyn/Code/qtfm/CMakeFiles/qtfm_autogen.dir
