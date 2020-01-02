@@ -1,0 +1,8 @@
+#include "mimetype.h"
+
+//static void *widgets[] = {&mimetypeWidget::Update};
+//typedef void (*FP)();
+const void *widgets[] = {&mimetypeWidget::Update};
+
+connect(ui->fileView, &QListWidget::currentItemChanged,
+        ui->mimelabel, &mimetypeWidget::Update);
