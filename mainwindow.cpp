@@ -18,6 +18,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->fileView, &QListWidget::currentItemChanged,
             ui->mimelabel, &mimetypeWidget::Update);
 
+    connect(ui->fileView, &QListWidget::currentItemChanged,
+            ui->filesizelabel, &filesizeWidget::Update);
+
     // Bootstrap with the first listing.
     ui->fileView->changeDirectory("/");
 }
