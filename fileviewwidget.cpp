@@ -49,6 +49,8 @@ void fileViewWidget::changeDirectory(QString directory) {
         // Add it to the list.
         addItem(child);
     }
+
+    this->setCurrentRow(0);
 }
 
 void fileViewWidget::goUp() {
